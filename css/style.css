@@ -1,0 +1,92 @@
+body {
+    font-size: 12px;
+}
+
+h1 {
+    font-family: 'Berkshire Swash', cursive;
+    font-size: 3em;
+    text-align: center;
+}
+
+h2 {
+    font-size: 2em;
+    text-align: center;
+}
+
+p {
+    padding-left: 20px;
+}
+
+table {
+    font-size: 0.9em;
+}
+
+label {
+    display: inline-block;
+    width: 200px;
+}
+
+.subheader {
+    font-size: 1em;
+    font-weight: bold;
+}
+
+#tabs {
+    display: table;
+    width: 99.7%;
+}
+#manual_tab {
+    white-space: nowrap;
+    display: inline-block;
+}
+
+.table_input {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.instructions {
+    display: inline-block;
+    padding-left: 20px;
+    /*vertical-align: top;*/
+    width: 800px;
+    white-space: normal;
+}
+
+.result_table {
+    border: 1px solid black;
+    border-collapse:collapse;
+}
+.result_table td
+{
+  border: 1px solid black;
+  padding: 4px;
+}
+.rtheader {
+    background-color:#93B300;
+}
+.rteven {
+    background-color:#EAF2D3;
+}
+.rteo {
+    background-color:#CFEC5C; /*#EAF2D3*/ /*128 153 131*/
+}
+.rtoo {
+    background-color:#EAF2D3; /*#EFF3E3*/ /*214 255 219 */
+}
+.rtee {
+    background-color:#F9F9AA; /* 147 147 125 */
+}
+.rtoe {
+    background-color:#F5F5D1; /* 245 245 209 */
+}
+
+
+tr.firstrow td {
+    border-top: thin solid black;
+    border-bottom: thin solid black;
+}
+
+#maxdcs_row td {
+    border-bottom: thin solid black;
+}
